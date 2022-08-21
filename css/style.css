@@ -53,7 +53,10 @@ a:hover {
 .input {
 
 }
-
+.container {
+	max-width: 1171px;
+	margin: auto;
+}
 .header {
 	background-color: #000;
 	font-size: 11px;
@@ -90,20 +93,17 @@ a:hover {
 	background-image: url(../images/picture.jpg);
 	background-size: cover;
 	max-width: 100%;
-	max-height: 707px;
-	
 }
 .main-picture__background {
 	background-color: rgba(0, 0, 0, 0.7);
 	padding-top: 194px;
 	padding-bottom: 208px; 
-	padding-left: 134px;
 }
 .main-description {
 	color: #FFFFFF;
 }
 .main-title {
-	margin-right: 627px;
+	max-width: 520px;
 	margin-bottom: 19px;
 }
 .main-title__item {
@@ -112,7 +112,7 @@ a:hover {
 .main-text {
 	font-size: 22px;
     line-height: 36px;
-	margin-right: 700px;
+	max-width: 505px;
 	margin-bottom: 41px;
 }
 .main-button {
@@ -137,9 +137,13 @@ a:hover {
 		max-width: 100%;
 	}
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1201px) and (max-width: 1439px) {
 	.header-content {
 		max-width: 90%;
+		margin: auto;
+	}
+	.container {
+		max-width: 85%;
 		margin: auto;
 	}
 }
@@ -147,64 +151,45 @@ a:hover {
     nav {
 		display: none;
 	}
-	.main-title {
-		font-size: 25px;
-        line-height: 132.83%;
-		margin-right: 20%;
-	}
-	.container {
+	.header-content {
 		max-width: 90%;
 		margin: auto;
 	}
-	.main-text {
-		font-size: 18px;
-        line-height: 135.84%;
-		margin-right: 50%;
+	.container {
+		max-width: 85%;
+		margin: auto;
 	}
-	
 }
 @media screen and (min-width: 769px) and (max-width: 1024px){
 	nav {
 		display: none;
 	}
-	.main-title {
-		font-size: 25px;
-        line-height: 132.83%;
-		margin-right: 0;
+	.header-content {
+		max-width: 90%;
+		margin: auto;
 	}
 	.main-picture__background {
-		padding: 90px 0;
+		padding: 85px 0 61px;
 	}
 	.container {
 		max-width: 90%;
 		margin: auto;
-	}
-    .main-text {
-		font-size: 18px;
-        line-height: 135.84%;
-		margin-right: 40%;
 	}
 }
 @media screen and (min-width: 481px) and (max-width:  768px){
 	nav {
 		display: none;
 	}
-	.main-title {
-		font-size: 23px;
-        line-height: 132.83%;
-		margin-right: 0;
+	.header-content {
+		max-width: 90%;
+		margin: auto;
 	}
 	.main-picture__background {
-		padding: 85px 0;
+		padding: 85px 0 61px;
 	}
 	.container {
 		max-width: 90%;
 		margin: auto;
-	}
-    .main-text {
-		font-size: 14px;
-        line-height: 135.84%;
-		margin-right: 0;
 	}
 	.main-button__calculate {
 		margin-right: 14px;
@@ -214,26 +199,29 @@ a:hover {
 	nav {
 		display: none;
 	}
+	.header-content {
+		max-width: 90%;
+		margin: auto;
+	}
 	.header-button {
 		display: none;
 	}
 	.main-title {
 		font-size: 23px;
         line-height: 132.83%;
-		margin-right: 0;
+		max-width: 300px;
 		margin-bottom: 16px;
 	}
 	.main-picture__background {
 		padding: 85px 0 61px;
 	}
 	.container {
-		max-width: 90%;
+		max-width: 95%;
 		margin: auto;
 	}
     .main-text {
 		font-size: 14px;
         line-height: 135.84%;
-		margin-right: 0;
 		margin-bottom: 32px;
 	}
 	.main-button {
