@@ -754,9 +754,6 @@ a:hover {
 	.fantasies-slider {
 		display: none;
 }
-.clients{
-	/*display: none;*/
-}
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1439px) {
@@ -1287,7 +1284,7 @@ a:hover {
 		margin-bottom: 36px;
 	}
 	.item-title {
-		font-size: 14px;
+		font-size: 12px;
         line-height: 138.6%;
 	}
 	.information-item__text {
